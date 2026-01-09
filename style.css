@@ -1,0 +1,95 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: system-ui, sans-serif;
+}
+
+body{
+  background:#0f0f14;
+  color:#fff;
+}
+
+/* TOP BAR */
+.topbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 20px;
+  background:#15151d;
+  border-bottom:1px solid #222;
+}
+
+.topbar h1 span{
+  color:#e50914;
+}
+
+.user-pill{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.user-pill img{
+  width:36px;
+  height:36px;
+  border-radius:50%;
+}
+
+/* FEED */
+.feed{
+  max-width:600px;
+  margin:30px auto;
+  display:flex;
+  flex-direction:column;
+  gap:30px;
+}
+
+/* POST */
+.post{
+  background:#181822;
+  border-radius:14px;
+  overflow:hidden;
+}
+
+.post-header{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:12px;
+}
+
+.post-header img{
+  width:40px;
+  height:40px;
+  border-radius:50%;
+}
+
+.post-image{
+  width:100%;
+  display:block;
+}
+
+.post-actions{
+  display:flex;
+  gap:15px;
+  padding:10px 12px;
+}
+
+.post-actions button{
+  background:none;
+  border:none;
+  color:#fff;
+  cursor:pointer;
+  font-size:14px;
+}
+
+.post-actions button:hover{
+  color:#e50914;
+}
+
+.post-text{
+  padding:0 12px 14px;
+  font-size:14px;
+  color:#ddd;
+}
