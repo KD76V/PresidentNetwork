@@ -1,64 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>PresidentNetwork</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<!-- TOP BAR -->
 <header class="topbar">
   <h1>President<span>Network</span></h1>
-  <div class="user-pill">
-    <img src="assets/avatars/user1.jpg">
-    <span>@president</span>
-  </div>
 </header>
 
-<!-- MAIN FEED -->
-<main class="feed">
-
-  <div class="post">
-    <div class="post-header">
-      <img src="assets/avatars/user2.jpg">
-      <strong>@alex</strong>
-    </div>
-
-    <img class="post-image" src="https://picsum.photos/600/400?random=1">
-
-    <div class="post-actions">
-      <button onclick="likePost(this)">❤️ Like</button>
-      <button>💬 Comment</button>
-    </div>
-
-    <p class="post-text">
-      Living life on my own terms 🚀
-    </p>
-  </div>
-
-  <div class="post">
-    <div class="post-header">
-      <img src="assets/avatars/user3.jpg">
-      <strong>@mike</strong>
-    </div>
-
-    <img class="post-image" src="https://picsum.photos/600/400?random=2">
-
-    <div class="post-actions">
-      <button onclick="likePost(this)">❤️ Like</button>
-      <button>💬 Comment</button>
-    </div>
-
-    <p class="post-text">
-      No rules. Just vibes 🔥
-    </p>
-  </div>
-
+<main class="feed" id="feed">
+  <!-- posts will load here -->
 </main>
 
+<!-- JS -->
+<script src="js/data.js"></script>
 <script src="js/app.js"></script>
+
 </body>
 </html>
