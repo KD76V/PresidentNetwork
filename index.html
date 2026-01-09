@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PresidentNetwork</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>PresidentNetwork</h1>
+  <div class="nav">
+    <input type="text" id="search" placeholder="Search users...">
+    <button id="loginBtn">Login</button>
+  </div>
+</header>
+
+<main>
+  <div class="feed" id="feed">
+    <!-- Posts will be injected here -->
+  </div>
+</main>
+
+<!-- Post Modal -->
+<div id="postModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Create Post</h2>
+    <textarea id="postText" placeholder="What's on your mind?"></textarea>
+    <input type="file" id="postImage">
+    <button id="submitPost">Post</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
